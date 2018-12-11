@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_margin="30dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hello"
+                android:textSize="30dp"/>
+            <TextView
+                android:id="@+id/home_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="UserName"
+                android:textSize="30dp"
+                android:paddingLeft="10dp"/>
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="this is my quote today is my day"/>
+        <Button
+            android:id="@+id/home_setup"
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Profile setup"/>
+        <Button
+            android:id="@+id/home_friends"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="My friends"/>
+        <Button
+            android:id="@+id/home_signout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sign out"/>
+    </LinearLayout>
+</LinearLayout>
